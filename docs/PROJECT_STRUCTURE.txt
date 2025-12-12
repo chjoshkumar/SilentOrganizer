@@ -1,0 +1,42 @@
+Silent Organizer/
+│
+├── 📂 Essential Files (What you need)
+│   ├── launch_control_panel.bat    ← START HERE (opens control panel)
+│   ├── install_dependencies.bat    ← Run once to install packages
+│   ├── prepare_for_new_pc.bat      ← Use before copying to new PC
+│   ├── main.py                     ← Core organizer (runs in background)
+│   ├── folder_manager.py           ← Control panel GUI
+│   ├── requirements.txt            ← List of dependencies
+│   └── README.md                   ← Quick reference
+│
+├── 📂 Auto-Generated Files (Created by app)
+│   ├── config.json                 ← Your folder settings
+│   ├── organizer_state.json        ← Running status
+│   └── history.json                ← File movement history
+│
+├── 📂 docs/ (Documentation - moved here to keep root clean)
+│   ├── SETUP_NEW_PC.md            ← Installing on another PC
+│   ├── QUICK_START.txt            ← Quick reference guide
+│   └── CHANGELOG.md               ← Version history
+│
+├── 📂 build/ (PyInstaller build files - can delete)
+├── 📂 dist/ (Compiled executable - can delete)
+└── main.spec (PyInstaller config - can delete)
+
+═══════════════════════════════════════════════════════════
+
+WHAT YOU CAN DELETE (Optional):
+  • build/ folder - PyInstaller build files
+  • dist/ folder - Compiled executable
+  • main.spec - PyInstaller configuration
+  • PROJECT_STRUCTURE.txt - This file (just a guide)
+
+CORE FILES (Don't delete):
+  • launch_control_panel.bat
+  • install_dependencies.bat
+  • main.py
+  • folder_manager.py
+  • requirements.txt
+  • README.md
+
+═══════════════════════════════════════════════════════════

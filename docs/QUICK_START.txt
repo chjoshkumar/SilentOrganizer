@@ -1,0 +1,117 @@
+╔══════════════════════════════════════════════════════════════╗
+║        SILENT ORGANIZER - QUICK START GUIDE                  ║
+╚══════════════════════════════════════════════════════════════╝
+
+📦 INSTALLING ON A NEW PC
+═══════════════════════════════════════════════════════════════
+
+METHOD 1: Copy Everything (Easiest)
+───────────────────────────────────────────────────────────────
+1. Copy the entire "Silent Organizer" folder to new PC
+2. Double-click: install_dependencies.bat
+3. Double-click: launch_control_panel.bat
+4. Remove old PC folders (they'll show up but won't work)
+5. Add new folders for the new PC
+6. Start organizing!
+
+METHOD 2: Clean Copy (Recommended)
+───────────────────────────────────────────────────────────────
+On OLD PC:
+1. Double-click: prepare_for_new_pc.bat
+   (This removes PC-specific files)
+2. Copy the entire folder to new PC
+
+On NEW PC:
+1. Double-click: install_dependencies.bat
+2. Double-click: launch_control_panel.bat
+3. Add your folders
+4. Start organizing!
+
+═══════════════════════════════════════════════════════════════
+
+🚀 FIRST TIME SETUP (THIS PC)
+═══════════════════════════════════════════════════════════════
+
+Step 1: Install Dependencies
+   → Double-click: install_dependencies.bat
+   → Wait for "Installation completed successfully!"
+
+Step 2: Open Control Panel
+   → Double-click: launch_control_panel.bat
+
+Step 3: Add Folders to Monitor
+   → Click quick buttons: Downloads, Desktop, Pictures, etc.
+   → OR click "Browse and Add Custom Folder"
+
+Step 4: Enable Background Mode (Optional)
+   → Check the box: "🔄 Run in Background"
+   → This keeps it running even after closing the window
+
+Step 5: Start Organizing
+   → Click: "▶️ Start Organizer"
+   → Files will be automatically organized!
+
+═══════════════════════════════════════════════════════════════
+
+📋 REQUIREMENTS
+═══════════════════════════════════════════════════════════════
+✓ Python 3.7 or higher
+  Check: Open Command Prompt → type: python --version
+  Download: https://www.python.org/downloads/
+
+✓ Internet connection (for installing dependencies)
+
+═══════════════════════════════════════════════════════════════
+
+🔧 TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+Problem: "Python is not recognized"
+Solution: Install Python and check "Add Python to PATH"
+
+Problem: "Module not found" error
+Solution: Run install_dependencies.bat again
+
+Problem: Organizer stops immediately after starting
+Solution: Check log file at C:\Users\YourName\FileOrganizer.log
+
+Problem: Old PC folders showing up
+Solution: Open config.json and delete old folder entries
+
+═══════════════════════════════════════════════════════════════
+
+📁 FILES EXPLAINED
+═══════════════════════════════════════════════════════════════
+
+Essential Files (Don't Delete):
+  • main.py - Core organizer
+  • folder_manager.py - Control panel
+  • requirements.txt - Dependencies list
+  • launch_control_panel.bat - Quick launcher
+  • install_dependencies.bat - Dependency installer
+
+Configuration Files (Auto-created):
+  • config.json - Your folders and settings
+  • organizer_state.json - Running status
+  • history.json - File movement history
+
+Documentation:
+  • README.md - Full documentation
+  • SETUP_NEW_PC.md - New PC installation guide
+  • QUICK_START.txt - This file
+
+═══════════════════════════════════════════════════════════════
+
+💡 TIPS
+═══════════════════════════════════════════════════════════════
+
+• Use Background Mode to keep it running 24/7
+• Check logs if files aren't being organized
+• You can monitor multiple folders simultaneously
+• Click checkboxes to enable/disable folders
+• Files are organized into: Pictures, Documents, Videos,
+  Music, Archives, and Others
+
+═══════════════════════════════════════════════════════════════
+
+Need help? Check README.md for detailed documentation

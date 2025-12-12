@@ -1,0 +1,75 @@
+{
+  "monitored_folders": [
+    {
+      "path": "Downloads",
+      "name": "Downloads Folder",
+      "enabled": false,
+      "use_home_path": true
+    },
+    {
+      "path": "Pictures",
+      "name": "Pictures Folder",
+      "enabled": false,
+      "use_home_path": true
+    },
+    {
+      "path": "F:/semester 1",
+      "name": "semester 1",
+      "enabled": true,
+      "use_home_path": false
+    }
+  ],
+  "folder_paths": {
+    "Pictures": "Pictures",
+    "Videos": "Videos",
+    "Documents": "Documents",
+    "Music": "Music",
+    "Archives": "Archives",
+    "Others": "Others"
+  },
+  "file_types": {
+    "Pictures": [
+      ".jpg",
+      ".jpeg",
+      ".png",
+      ".gif",
+      ".bmp",
+      ".tiff",
+      ".webp",
+      ".svg"
+    ],
+    "Videos": [
+      ".mp4",
+      ".mov",
+      ".avi",
+      ".mkv",
+      ".flv",
+      ".wmv"
+    ],
+    "Documents": [
+      ".pdf",
+      ".docx",
+      ".doc",
+      ".pptx",
+      ".ppt",
+      ".xlsx",
+      ".xls",
+      ".txt",
+      ".csv",
+      ".rtf"
+    ],
+    "Music": [
+      ".mp3",
+      ".wav",
+      ".aac",
+      ".flac"
+    ],
+    "Archives": [
+      ".zip",
+      ".rar",
+      ".7z",
+      ".tar",
+      ".gz"
+    ]
+  }
+}
